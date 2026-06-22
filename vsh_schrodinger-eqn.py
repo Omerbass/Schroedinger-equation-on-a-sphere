@@ -44,7 +44,7 @@ def get_vsh_components(l, m):
 
 # --- 2. Numerical Integration & Matrix Building ---
 L_MAX = 15   # Kept small here for speed; increase for better convergence
-k = 20.0     # Harmonic potential strength
+k = 00.0     # Harmonic potential strength
 m_fixed = 1  # For vector fields, m=0 is often trivial/vanishing for certain components
 
 # Build a list of basis elements: tuples of (Type, l) where Type 0 = Psi, Type 1 = Y
