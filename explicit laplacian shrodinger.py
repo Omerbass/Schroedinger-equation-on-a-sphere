@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 # --- Parameters ---
 N = 300                 # Number of grid points along theta
-m = 1                   # Magnetic quantum number
-k = 100.0                # Potential strength V = 0.5 * k * theta^2
+m = 1                   # Lz
+k = 100.0               # Potential strength V = 0.5 * k * theta^2
 neigs = 4
 
 # Setup grid avoiding exact 0 and pi to prevent division by zero (singularities)
